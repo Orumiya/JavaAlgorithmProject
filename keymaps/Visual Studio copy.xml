@@ -1,0 +1,3 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="Vcs.QuickListPopupAction" />
+</keymap>
