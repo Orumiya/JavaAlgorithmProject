@@ -1,5 +1,7 @@
 package algorithm.main;
 
+import algorithm.linkedListPackage.CustomLinkedList;
+import algorithm.linkedListPackage.ListItem;
 import algorithm.prog1.SimpleAlgImpl;
 
 public class Controller
@@ -49,5 +51,22 @@ public class Controller
                 ) {
             System.out.print(number + ",");
         }
+
+        System.out.println();
+        //**************CustomLinkedList**************************************************************
+        CustomLinkedList<String> customLinkedList = new CustomLinkedList<>();
+        customLinkedList.insert("How I met your mother");
+        customLinkedList.insert("WestWorld");
+        customLinkedList.insert("Misfits");
+        customLinkedList.insert("Terror");
+        customLinkedList.display();
+        ListItem<String> sb = customLinkedList.search("WestWorld");
+        if(sb != null){
+            System.out.println("result of the search: " + sb.toString());
+        }else{
+            System.out.println("not found");
+        }
+        customLinkedList.delete("Misfits");
+        customLinkedList.display();
     }
 }
