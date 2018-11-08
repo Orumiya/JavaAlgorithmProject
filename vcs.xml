@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/Java-Microservices-swarm/02-swagger.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Java-Microservices-swarm/07_iam.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Orumiya\IdeaProjects" />
